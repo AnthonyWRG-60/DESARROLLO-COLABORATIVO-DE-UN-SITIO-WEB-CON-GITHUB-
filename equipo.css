@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8fafc;
+    color: #334155;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.site-header {
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.site-header h1 {
+    color: #0f172a;
+    margin: 0 0 10px 0;
+}
+
+.site-header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.main-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px 60px 20px;
+}
+
+.equipo-section h2 {
+    font-size: 32px;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.subtitulo {
+    font-size: 16px;
+    color: #64748b;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    line-height: 1.5;
+}
+
+.grid-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.tarjeta {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    transition: transform 0.2s ease;
+    text-align: center;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+.icono {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.tarjeta h3 {
+    color: #0284c7;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.cargo {
+    font-weight: bold;
+    color: #475569;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.tarjeta p {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    background: #1e293b;
+    color: white;
+    font-size: 14px;
+}
