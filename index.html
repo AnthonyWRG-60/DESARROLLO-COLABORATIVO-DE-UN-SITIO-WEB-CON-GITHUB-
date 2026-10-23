@@ -1,51 +1,58 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechNova | Empresa de Tecnología</title>
+    <meta name="description" content="TechNova ofrece desarrollo web, soporte técnico y seguridad informática.">
+    <title>TechNova | Inicio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
-    <header>
-        <h1>TechNova</h1>
-
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="servicios.html">Servicios</a>
-            <a href="equipo.html">Equipo</a>
-        </nav>
-    </header>
+    <div id="header"></div>
 
     <main>
         <section class="bienvenida">
-            <h2>Soluciones tecnológicas para tu empresa</h2>
+            <div class="contenedor bienvenida-contenido">
+                <p class="etiqueta">TECNOLOGÍA · INNOVACIÓN · SEGURIDAD</p>
 
-            <p>
-                En TechNova ofrecemos soluciones tecnológicas
-                innovadoras para ayudar a las empresas a crecer,
-                mejorar sus procesos y alcanzar sus objetivos.
-            </p>
+                <h1>Bienvenido a <span>TechNova</span></h1>
 
-            <a href="servicios.html" class="boton">Conoce nuestros servicios</a>
+                <p class="texto-bienvenida">
+                    Somos una empresa dedicada al desarrollo web,
+                    soporte técnico y seguridad informática.
+                    Ofrecemos soluciones tecnológicas para empresas y personas.
+                </p>
+
+                <a href="servicios.html" class="boton">
+                    Conoce nuestros servicios
+                </a>
+            </div>
         </section>
 
-        <section class="nosotros">
-            <h2>¿Quiénes somos?</h2>
+        <section class="nosotros" id="nosotros">
+            <div class="contenedor">
+                <p class="etiqueta">CONÓCENOS</p>
 
-            <p>
-                Somos una empresa dedicada al desarrollo de soluciones
-                digitales, soporte técnico y seguridad informática.
-                Nuestro objetivo es brindar servicios de calidad
-                mediante la tecnología.
-            </p>
+                <h2>Sobre nosotros</h2>
+
+                <p class="texto-seccion">
+                    En TechNova brindamos soluciones tecnológicas para
+                    ayudar a nuestros clientes a mejorar sus procesos,
+                    resolver problemas informáticos y proteger su información.
+                </p>
+
+                <p class="texto-seccion">
+                    Nuestro compromiso es ofrecer servicios confiables,
+                    prácticos y adaptados a las necesidades de cada cliente.
+                </p>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2026 TechNova. Todos los derechos reservados.</p>
-    </footer>
+    <div id="footer"></div>
 
 </body>
 </html>
